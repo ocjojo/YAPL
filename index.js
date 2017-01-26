@@ -11,8 +11,13 @@
 		return _;
 	}
 
+	function getPromise(){
+		return new yapl();
+	}
+
 	if (typeof module !== 'undefined' && typeof module.exports !== 'undefined')
-		module.exports = yapl;
+		module.exports = getPromise;
 	else
-		window.yapl = yapl;
+		window.yapl = getPromise;
+	
 })();

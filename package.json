@@ -1,6 +1,6 @@
 {
   "name": "yapl",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Yet another promise library. It is a small wrapper arround the ES6 native Promise to allow for the syntax known from e.g. jQuery.Deferred().",
   "main": "index.js",
   "scripts": {
