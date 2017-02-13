@@ -1,7 +1,7 @@
 (function(){
 
 	function yapl(){
-		var _ = this;
+		var _ = {};
 
 		_.promise = new Promise(function(resolve, reject){
 			_.resolve = resolve;
