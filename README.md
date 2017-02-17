@@ -11,7 +11,7 @@ function setTimeoutWrite(str){
     setTimeout(function(){
         deferred.resolve(str);
     }, 1000);
-    return deferred.promise;
+    return deferred;
 }
 
 setTimeoutWrite('Hello World').then(console.log);

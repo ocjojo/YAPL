@@ -1,13 +1,10 @@
 (function(){
 
 	function yapl(){
-		var _ = {};
-
-		_.promise = new Promise(function(resolve, reject){
+		var _ = new Promise(function(resolve, reject){
 			_.resolve = resolve;
 			_.reject = reject;
 		});
-
 		return _;
 	}
 
